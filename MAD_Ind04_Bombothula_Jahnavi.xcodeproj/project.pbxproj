@@ -13,6 +13,8 @@
 		5D766FD62BD5F9C3004528AB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5D766FD52BD5F9C3004528AB /* Base */; };
 		5D766FD82BD5F9C5004528AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D766FD72BD5F9C5004528AB /* Assets.xcassets */; };
 		5D766FDB2BD5F9C5004528AB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5D766FDA2BD5F9C5004528AB /* Base */; };
+		5D766FE32BD8A4A6004528AB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D766FE22BD8A4A6004528AB /* Model.swift */; };
+		5D766FE52BD8A4B8004528AB /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D766FE42BD8A4B8004528AB /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5D766FD72BD5F9C5004528AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D766FDA2BD5F9C5004528AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D766FDC2BD5F9C5004528AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D766FE22BD8A4A6004528AB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5D766FE42BD8A4B8004528AB /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		5D766FCD2BD5F9C3004528AB /* MAD_Ind04_Bombothula_Jahnavi */ = {
 			isa = PBXGroup;
 			children = (
+				5D766FE22BD8A4A6004528AB /* Model.swift */,
+				5D766FE42BD8A4B8004528AB /* View.swift */,
 				5D766FCE2BD5F9C3004528AB /* AppDelegate.swift */,
 				5D766FD02BD5F9C3004528AB /* SceneDelegate.swift */,
 				5D766FD22BD5F9C3004528AB /* ViewController.swift */,
@@ -141,6 +147,8 @@
 				5D766FD32BD5F9C3004528AB /* ViewController.swift in Sources */,
 				5D766FCF2BD5F9C3004528AB /* AppDelegate.swift in Sources */,
 				5D766FD12BD5F9C3004528AB /* SceneDelegate.swift in Sources */,
+				5D766FE52BD8A4B8004528AB /* View.swift in Sources */,
+				5D766FE32BD8A4A6004528AB /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
